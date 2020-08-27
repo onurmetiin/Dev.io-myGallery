@@ -1,0 +1,372 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 37rem;
+  height: 70rem;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 90rem;
+    height: auto;
+  }
+}
+
+.allPage {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.allPage .profil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .allPage .profil {
+    margin-top: 5rem;
+  }
+}
+
+.allPage .profil img {
+  width: 10rem;
+  height: auto;
+  border-radius: 4.5rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .allPage .profil img {
+    width: 15rem;
+    height: auto;
+  }
+}
+
+.allPage .profil h2 {
+  margin: 0;
+  margin-top: 1rem;
+  width: 12rem;
+  height: 1.9rem;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  text-align: center;
+  color: #4e5150;
+}
+
+@media screen and (min-width: 1440px) {
+  .allPage .profil h2 {
+    margin-top: 2rem;
+    font-size: 2.4rem;
+    width: 20rem;
+    font-weight: bold;
+  }
+}
+
+.allPage .profil p {
+  margin: 0;
+  width: 15rem;
+  height: 1.1rem;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: #a9a9a9;
+}
+
+@media screen and (min-width: 1440px) {
+  .allPage .profil p {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+  }
+}
+
+.allPage .profil .account {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 26rem;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .allPage .profil .account {
+    margin-top: 1rem;
+    width: 32rem;
+  }
+}
+
+.allPage .profil .account-detail {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #4e5150;
+  border-radius: 1.2rem;
+  width: 7.8rem;
+  height: 5.2rem;
+  background: #e5e5e5;
+}
+
+@media screen and (min-width: 1440px) {
+  .allPage .profil .account-detail {
+    width: 10rem;
+    height: 6.7rem;
+    margin: 1.2rem;
+  }
+}
+
+.allPage .profil .account-detail-number {
+  width: 4.8rem;
+  height: 1.6rem;
+  margin-top: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #4e5150;
+}
+
+@media screen and (min-width: 1440px) {
+  .allPage .profil .account-detail-number {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+  }
+}
+
+.allPage .profil .account-detail-name {
+  width: 7.5rem;
+  height: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #4e5150;
+}
+
+@media screen and (min-width: 1440px) {
+  .allPage .profil .account-detail-name {
+    margin-top: 0.2rem;
+    font-size: 1.4rem;
+  }
+}
+
+.allPage .gallery {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (12rem)[3];
+      grid-template-rows: repeat(3, 12rem);
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5rem;
+  margin-top: 4rem;
+  margin-left: 0.5rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .allPage .gallery {
+    margin-top: 4rem;
+    -ms-grid-rows: (27rem)[3];
+        grid-template-rows: repeat(3, 27rem);
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-top: 4rem;
+    margin-left: 0.5rem;
+  }
+}
+
+.allPage .gallery-1 {
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+.allPage .gallery-1-art1 {
+  width: 11rem;
+  height: auto;
+  border-radius: 1.6rem;
+  -webkit-box-shadow: 0.1rem 0.2rem 0.5rem 0.1rem #aaaaaa;
+          box-shadow: 0.1rem 0.2rem 0.5rem 0.1rem #aaaaaa;
+}
+
+@media screen and (min-width: 1440px) {
+  .allPage .gallery-1-art1 {
+    width: 27rem;
+  }
+}
+
+.allPage .gallery-2 {
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2 / span 2;
+}
+
+.allPage .gallery-2-art2 {
+  width: auto;
+  height: 11rem;
+  border-radius: 1.6rem;
+  -webkit-box-shadow: 0.1rem 0.2rem 0.5rem 0.1rem #aaaaaa;
+          box-shadow: 0.1rem 0.2rem 0.5rem 0.1rem #aaaaaa;
+}
+
+@media screen and (min-width: 1440px) {
+  .allPage .gallery-2-art2 {
+    height: 27rem;
+  }
+}
+
+.allPage .gallery-3 {
+  margin: 0;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / span 2;
+}
+
+.allPage .gallery-3-art3 {
+  width: auto;
+  height: 11rem;
+  margin: 0;
+  border-radius: 1.6rem;
+  -webkit-box-shadow: 0.1rem 0.2rem 0.5rem 0.1rem #aaaaaa;
+          box-shadow: 0.1rem 0.2rem 0.5rem 0.1rem #aaaaaa;
+}
+
+@media screen and (min-width: 1440px) {
+  .allPage .gallery-3-art3 {
+    height: 27rem;
+  }
+}
+
+.allPage .gallery-4 {
+  margin: 0;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  grid-row: 2 / span 3;
+  -ms-grid-column: 3;
+  grid-column: 3;
+}
+
+.allPage .gallery-4-art4 {
+  width: 11rem;
+  height: auto;
+  margin: 0;
+  border-radius: 1.6rem;
+  -webkit-box-shadow: 0.1rem 0.2rem 0.5rem 0.1rem #aaaaaa;
+          box-shadow: 0.1rem 0.2rem 0.5rem 0.1rem #aaaaaa;
+}
+
+@media screen and (min-width: 1440px) {
+  .allPage .gallery-4-art4 {
+    width: 27rem;
+  }
+}
+
+.allPage .gallery-5 {
+  margin: 0;
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+.allPage .gallery-5-art5 {
+  width: 11rem;
+  height: auto;
+  margin: 0;
+  border-radius: 1.6rem;
+  -webkit-box-shadow: 0.1rem 0.2rem 0.5rem 0.1rem #aaaaaa;
+          box-shadow: 0.1rem 0.2rem 0.5rem 0.1rem #aaaaaa;
+}
+
+@media screen and (min-width: 1440px) {
+  .allPage .gallery-5-art5 {
+    width: 27rem;
+  }
+}
+
+.allPage .gallery-6 {
+  margin: 0;
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 2;
+  grid-column: 2;
+}
+
+.allPage .gallery-6-art6 {
+  width: 11rem;
+  height: auto;
+  margin: 0;
+  border-radius: 1.6rem;
+  -webkit-box-shadow: 0.1rem 0.2rem 0.5rem 0.1rem #aaaaaa;
+          box-shadow: 0.1rem 0.2rem 0.5rem 0.1rem #aaaaaa;
+}
+
+@media screen and (min-width: 1440px) {
+  .allPage .gallery-6-art6 {
+    width: 27rem;
+  }
+}
+
+.allPage .end {
+  width: 100%;
+  height: 1.7rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #a9a9a9;
+}
+/*# sourceMappingURL=main.css.map */
